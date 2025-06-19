@@ -1,0 +1,290 @@
+{
+    // WINDOW APPEARANCE AND BEHAVIOR
+    "window.commandCenter": false,    
+    "window.title": "${activeEditorShort}${separator}${rootName}",  //allazei to name sto kentro panw
+    "window.titleBarStyle": "custom",
+    "window.menuBarVisibility": "compact",
+    "window.zoomLevel": 1.5,
+
+
+    // EDITOR APPEARANCE AND BEHAVIOR
+    "editor.minimap.enabled": false,
+    "editor.guides.indentation": false,
+    // "editor.guides.highlightActiveIndentation": false,
+    "editor.stickyScroll.enabled": false,
+    // "editor.fontFamily": "Cascadia Code, Consolas, 'Courier New', monospace",
+    // "editor.lineHeight": 1.5,     // auto exei mega potential
+    "editor.hideCursorInOverviewRuler": true,        // auto kanei hide apo to scrollbar na deixnei pou einai to cursor sto file                                                                                                             
+    "editor.renderWhitespace": "none",       // pairnei boundary, all, none
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.verticalScrollbarSize": 20,
+    "editor.overviewRulerBorder": false,    // auto vgazei to asxhmo pragma border ap to scrollbar. ara den xreiazetai na to allakseis apo to css re file
+    "editor.glyphMargin": false,            //  margin sto plai. mporei na einai wraio
+    "editor.padding.top": 0,         // margin sto top katw apo ta open tabs
+    "editor.folding": false,                // folding kwdika
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    // "editor.lineDecorationsWidth": 0,
+    // "editor.lineNumbers": "off",
+    "editor.fontSize": 12,
+    
+    // "editor.bracketPairColorization.enabled": true,
+    // "editor.guides.bracketPairs": "active",
+    // "editor.guides.bracketPairsHorizontal": true ,
+
+    "editor.tokenColorCustomizations": {
+        "[React Dev Theme (light)]": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "constant.language.json.comments",
+                    "constant.language.python", 
+                    "constant.language"
+                ],
+                "settings": {
+                    "foreground": "#00ff00"  // Replace with your preferred color
+                }
+            }
+        ]
+    }
+    },
+
+    // FILE EXPLORER SETTINGS
+    "symbols.hidesExplorerArrows": true,
+    "explorer.compactFolders": false,
+    "explorer.openEditors.visible": 1,
+    "explorer.decorations.colors": true,
+    "explorer.decorations.badges": true,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "explorer.autoReveal": true,
+
+    // BREADCRUMBS SETTINGS
+    "breadcrumbs.enabled": false,
+    "breadcrumbs.icons": false,
+
+
+    // WORKBENCH CONFIGURATION
+    "workbench.tree.renderIndentGuides": "none" ,
+    "workbench.editor.showTabs": "multiple",  // akraio auto. poly cool alla unusable sto none
+    "workbench.tree.indent": 32,
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.iconTheme": "symbols",
+    "workbench.sideBar.location": "right",
+    "workbench.statusBar.visible": false,
+    "workbench.panel.defaultLocation": "right",
+    "workbench.layoutControl.enabled": false,
+    "workbench.editor.editorActionsLocation": "hidden",    // auto vgazei kati actions pou an katalava mporei na exeis kai extra me ta extensions, opote psaxto
+
+
+
+    "workbench.colorCustomizations": {
+        "[React Theme]": {
+            "titleBar.activeForeground": "#fafafa",
+            "tree.indentGuidesStroke": "#ff0000",
+            "tree.inactiveIndentGuidesStroke":"#ff0000",
+            "scrollbarSlider.background": "#ffffffe4",
+            "scrollbar.shadow": "#ece7e700",
+            "widget.shadow": "#ffffff00",
+            "sideBar.foreground":"#ffffff",
+            "sideBar.border":"#ff000000",
+
+            "terminalOverviewRuler.border": "#87878700",
+            "terminalOverviewRuler.findMatchForeground": "#424242",
+            "terminalOverviewRuler.cursorForeground":"#87878700",
+            "terminal.initialHintForeground":"#87878700",
+            "terminalCommandDecoration.successBackground": "#3f3f3f00",
+            "terminalCommandDecoration.errorBackground": "#3f3f3f00",
+            "terminalCommandDecoration.defaultBackground": "#3f3f3f00",
+            "sideBarSectionHeader.background": "#9c9999",
+            "outputView.background": "#0c8737",
+            "titleBar.border": "#ebe8e800",
+            "activityBar.background": "#39c80d66",
+            "tab.border":"#ffffff00",
+            "tab.activeForeground": "#ffffff",
+            "notebook.cellBorderColor": "#FFFFFF",
+            "notebook.focusedEditorBorder": "#ffffff",
+            
+            "sideBarTitle.background": "#0f51d600"
+          },
+        "[Dracula Theme]": {
+            "titleBar.activeForeground": "#fafafa",
+            "tree.indentGuidesStroke": "#ff0000",
+            "tree.inactiveIndentGuidesStroke":"#ff0000",
+            "scrollbarSlider.background": "#ffffff00",
+            "scrollbar.shadow": "#ece7e700",
+            "widget.shadow": "#ffffff00",
+            "sideBar.foreground":"#ffffff",
+  
+            "sideBar.background": "#1b1e25",
+            "titleBar.activeBackground":"#1b1e25",
+            "editorGroupHeader.tabsBackground": "#1b1e25",
+            "tab.inactiveBackground":"#1b1e25",
+            "terminalOverviewRuler.border": "#87878700",
+            "terminalOverviewRuler.findMatchForeground": "#424242",
+            "terminalOverviewRuler.cursorForeground":"#87878700",
+            "terminal.initialHintForeground":"#87878700",
+            "terminalCommandDecoration.successBackground": "#3f3f3f00",
+            "terminalCommandDecoration.errorBackground": "#3f3f3f00",
+            "terminalCommandDecoration.defaultBackground": "#3f3f3f00",
+            "sideBarSectionHeader.background": "#9c9999",
+            "outputView.background": "#0c8737",
+            "titleBar.border": "#ebe8e800",
+            "activityBar.background": "#39c80d66",
+            "tab.border":"#ffffff00",
+            "tab.activeForeground": "#ffffff",
+            "notebook.cellBorderColor": "#FFFFFF",
+            "notebook.focusedEditorBorder": "#ffffff",
+            
+            "sideBarTitle.background": "#1b1e25"
+            // "editor.background":"#ffffff"
+            // "terminal.background":"#1b1e25",
+            // "panel.background":"#1b1e25",
+ 
+          },
+        // "titleBar.activeForeground": "#fafafa",
+        // // "scrollbar.shadow": "#031ee8",
+        // // "scrollbarSlider.activeBackground": "#004cff",
+        // "tree.indentGuidesStroke": "#ff0000",
+        // "tree.inactiveIndentGuidesStroke":"#ff0000",
+        // "scrollbarSlider.background": "#ffffff00",
+        // "scrollbar.shadow": "#ece7e700",
+        // "widget.shadow": "#ffffff00",
+        // // allazei to background tou side bar
+        // // "sideBar.background": "#282c34",
+        // "sideBar.foreground":"#ffffff",
+        // "sideBarTitle.background": "#282c34",
+        // "terminalOverviewRuler.border": "#87878700",
+        // "terminalOverviewRuler.findMatchForeground": "#424242",
+        // "terminalOverviewRuler.cursorForeground":"#87878700",
+        // "terminal.initialHintForeground":"#87878700",
+        // "terminalCommandDecoration.successBackground": "#3f3f3f00",
+        // "terminalCommandDecoration.errorBackground": "#3f3f3f00",
+        // "terminalCommandDecoration.defaultBackground": "#3f3f3f00",
+        // //  allazei to back twn epikefalidwn sto side. project name outline, timeline
+        // "sideBarSectionHeader.background": "#9c9999",
+        // // "terminal.background": "#462e65",
+        // // "titleBar.activeBackground": "#00000000",
+        // // "panel.background": "#28e05c00",
+        // // "panel.border": "#ffffff",
+        // "outputView.background": "#0c8737",
+        // "titleBar.border": "#ebe8e800",
+        // "activityBar.background": "#39c80d66",
+        // // "sideBar.border":"#fffffff5",
+        // // "sideBySideEditor.horizontalBorder":"#115bef"
+        // // "sideBarTitle.border":"#ff0000",
+        // "tab.border":"#ffffff00",
+        // "tab.activeForeground": "#ffffff",
+        // // "tab.hoverBorder":"#ff0000",
+        // // "tab.activeBorderTop": "#39c80d",
+        // // "tab.activeBorder": "#39c80d",
+        // // "tab.activeBackground":"#bc5151"
+        // // "tab.inacti": "#ff0000",
+        // //   "editorGroupHeader.border": "#12d858",
+        // "notebook.cellBorderColor": "#FFFFFF",
+        // "notebook.focusedEditorBorder": "#ffffff"
+        },
+    
+
+    // "editor.guides.highlightActiveIndentation": false,
+
+    // "editor.lineDecorationsWidth": 0,
+    // "editor.lineNumbers": "off",
+
+    // Here you can add custom styles
+    "vscode_custom_css.imports": [
+        "file:///home/archaion/custom-vscode.css"
+    ],
+    "git.openRepositoryInParentFolders": "never",
+
+    "chat.commandCenter.enabled": false,
+
+        // TERMINAL CONFIGURATION
+    // "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font, Consolas, 'Courier New', monospace",
+    "terminal.integrated.tabs.showActions": "always",
+    "terminal.integrated.tabs.showActiveTerminal": "never",
+    "terminal.integrated.defaultLocation": "view",
+    "terminal.integrated.cursorStyle": "block", // ehh view on the side or choose. prob view so true
+    "terminal.integrated.fontSize": 12,
+    // "terminal.integrated.profiles.windows":{
+    //     "Git Bash": {
+    //       "source": "Git Bash"
+    //     },
+    //     "PowerShell": {
+    //       "icon": "terminal-powershell",
+    //       "source": "PowerShell"
+    //     }
+    //   },
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "bash (2)": {
+            "path": "/usr/bin/bash"
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "bash (2)",
+
+
+
+
+    "python.createEnvironment.trigger": "off", 
+    "explorer.confirmDragAndDrop": false,
+
+
+    "workbench.colorTheme": "React Theme",
+    "workbench.activityBar.location": "hidden",
+
+
+    "settings.cycle": [
+        {
+            "id": "colorTheme", // must be unique
+            "overrideWorkspaceSettings": false,
+            "values": [
+                {
+                    "workbench.colorTheme": "React Theme"
+                },
+                {
+                    "workbench.colorTheme": "Dracula Theme"
+                }
+            ]
+        },
+        {
+            "id": "activity", // must be unique
+            "overrideWorkspaceSettings": false,
+            "values": [
+                {
+                    "workbench.activityBar.location": "bottom"
+                },
+                {
+                    "workbench.activityBar.location": "hidden",
+                }
+            ]
+        }
+        // {
+        //     "id": "background", // must be unique
+        //     "overrideWorkspaceSettings": false,
+        //     "values": [
+        //         {
+        //             "workbench.colorCustomizations": {
+        //                 "[React Theme]": {
+        //                     "sideBarTitle.background": "#ffffff"
+        //                 }
+    
+        //             }
+        //         },
+        //         {
+        //             "workbench.colorCustomizations": {
+        //                 "[React Theme]": {
+        //                     "sideBarTitle.background": "#0f51d600"     // PROSEXE MALAKA ALLAZEI OLO TO COLOR CUSTOMIZATION, OXI MONO TO ENA LINE 
+        //                 }
+    
+        //             }
+        //         },
+        //     ]
+        // }
+       
+    ]
+}

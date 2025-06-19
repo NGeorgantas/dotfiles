@@ -1,5 +1,18 @@
 // NAVIGATION IN THE WORKBENCH
-[
+[    
+    
+    {
+        "key": "ctrl+k ctrl+d",
+        "command": "settings.cycle.activity"
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "settings.cycle.colorTheme"
+    },
+    {
+        "key": "ctrl+alt+v",
+        "command": "toggleVim"
+    },
    {
     "key":"ctrl-h",
     "command": "workbench.action.navigateLeft"
