@@ -1,8 +1,7 @@
 // NAVIGATION IN THE WORKBENCH
-[    
-    
+[     
     {
-        "key": "ctrl+k ctrl+d",
+        "key": "ctrl+shift+k",
         "command": "settings.cycle.activity"
     },
     {
@@ -116,6 +115,10 @@
     "command": "workbench.action.closeActiveEditor",
     "when": "(vim.mode == 'Normal' && editorTextFocus) || !inputFocus"
    },
+   {
+    "key": "shift+enter",
+    "command": "python.execInTerminal-icon"
+   },
 
 // FILE EXPLORER
 
@@ -175,7 +178,7 @@
     "key": "enter",
     "command": "explorer.openAndPassFocus",
     "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
-  },
+  }
 
 // add close file,  add when crtl-d (ctrl-n in our case) add a ctrl-k to skip a word
 
