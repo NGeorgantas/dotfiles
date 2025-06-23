@@ -1,6 +1,8 @@
 # dotfiles
 
 VS Code
+apo auton edw eida pws na ftiaxnw to VIM https://www.youtube.com/watch?v=JRnwt7oT1ZE
+kai edw einai ta dotfiles tou me comments apo allous https://gist.github.com/nikolovlazar/1174876ab2769c52ac9fc1534c557d70
 settings.json and keybindings.json location:
 
 * Ubuntu : ~/.config/Code/User
