@@ -1,9 +1,6 @@
 {
-    // WINDOW APPEARANCE AND BEHAVIOR
-    "window.commandCenter": false,    
-    "window.title": "${activeEditorShort}${separator}${rootName}",  //allazei to name sto kentro panw
+    "window.title": "${activeEditorShort}${separator}${rootName}", //allazei to name sto kentro panw
     "window.titleBarStyle": "custom",
-    "window.menuBarVisibility": "compact",
     "window.zoomLevel": 1.5,
 
 
@@ -28,7 +25,7 @@
     // "editor.lineDecorationsWidth": 0,
     // "editor.lineNumbers": "off",
     "editor.fontSize": 12,
-    
+    "editor.cursorSurroundingLines": 8, 
     // "editor.bracketPairColorization.enabled": true,
     // "editor.guides.bracketPairs": "active",
     // "editor.guides.bracketPairsHorizontal": true ,
@@ -72,9 +69,8 @@
     "workbench.editor.tabSizing": "shrink",
     "workbench.iconTheme": "symbols",
     "workbench.sideBar.location": "right",
-    "workbench.statusBar.visible": false,
+    "workbench.statusBar.visible":true,
     "workbench.panel.defaultLocation": "right",
-    "workbench.layoutControl.enabled": false,
     "workbench.editor.editorActionsLocation": "hidden",    // auto vgazei kati actions pou an katalava mporei na exeis kai extra me ta extensions, opote psaxto
 
 
@@ -89,6 +85,7 @@
             "widget.shadow": "#ffffff00",
             "sideBar.foreground":"#ffffff",
             "sideBar.border":"#ff000000",
+            "sideBarActivityBarTop.border":"#1459e300",
 
             "terminalOverviewRuler.border": "#87878700",
             "terminalOverviewRuler.findMatchForeground": "#424242",
@@ -99,13 +96,15 @@
             "terminalCommandDecoration.defaultBackground": "#3f3f3f00",
             "sideBarSectionHeader.background": "#9c9999",
             "outputView.background": "#0c8737",
-            "titleBar.border": "#ebe8e800",
-            "activityBar.background": "#39c80d66",
-            "tab.border":"#ffffff00",
+            "titleBar.border": "#f00f0f00",
+            "statusBar.border": "#00000000",
+            "statusBar.background": "#c4054e",
+            "activityBar.background": "#34d403f4",
+            "tab.border":"#bf080800",
             "tab.activeForeground": "#ffffff",
             "notebook.cellBorderColor": "#FFFFFF",
             "notebook.focusedEditorBorder": "#ffffff",
-            
+           // VRES PIO ALLAZEI TO BORDER TO MAVRAKI STA TABS  
             "sideBarTitle.background": "#0f51d600"
           },
         "[Dracula Theme]": {
@@ -232,10 +231,7 @@
 
     "python.createEnvironment.trigger": "off", 
     "explorer.confirmDragAndDrop": false,
-
-
-    "workbench.colorTheme": "React Theme",
-    "workbench.activityBar.location": "hidden",
+    "workbench.activityBar.location": "bottom",
 
 
     "settings.cycle": [
@@ -286,5 +282,12 @@
         //     ]
         // }
        
-    ]
+    ],
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.colorTheme": "React Theme",
+    "vim.highlightedyank.enable":true,
+    "vim.highlightedyank.color": "#a9dc7660",
+    "vim.highlightedyank.duration": 1000,
+    "vim.useSystemClipboard": true
 }

@@ -1,5 +1,6 @@
 // NAVIGATION IN THE WORKBENCH
-[     
+[    
+    
     {
         "key": "ctrl+shift+k",
         "command": "settings.cycle.activity"
@@ -12,6 +13,26 @@
         "key": "ctrl+alt+v",
         "command": "toggleVim"
     },
+      {
+    "key": "h",
+    "command": "editor.action.scrollLeftHover",
+    "when": "editorHoverFocused"
+  },
+  {
+    "key": "j",
+    "command": "editor.action.scrollDownHover",
+    "when": "editorHoverFocused"
+  },
+  {
+    "key": "k",
+    "command": "editor.action.scrollUpHover",
+    "when": "editorHoverFocused"
+  },
+  {
+    "key": "l",
+    "command": "editor.action.scrollRightHover",
+    "when": "editorHoverFocused"
+  },
    {
     "key":"ctrl-h",
     "command": "workbench.action.navigateLeft"
@@ -74,7 +95,7 @@
    // CODING
    {
     "key": "shift-k",
-    "command": "editor.action.showHover",
+    "command": "editor.action.showDefinitionPreviewHover",
     "when": "vim.mode == 'Normal' && editorTextFocus"
    },
    {
@@ -178,7 +199,7 @@
     "key": "enter",
     "command": "explorer.openAndPassFocus",
     "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
-  }
+  },
 
 // add close file,  add when crtl-d (ctrl-n in our case) add a ctrl-k to skip a word
 
