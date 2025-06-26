@@ -1,9 +1,47 @@
 // NAVIGATION IN THE WORKBENCH
-[    
-    
+[
+      {
+      "key": "ctrl+p",
+      "command": "workbench.action.files.openFolder"
+    },
+//    Resize terminal when focused inside it
+    {
+      "key": "ctrl+alt+k",
+      "command": "workbench.action.terminal.resizePaneUp",
+      "when": "panelFocus"
+    },
+    {
+      "key": "ctrl+alt+j",
+      "command": "workbench.action.terminal.resizePaneDown",
+      "when": "panelFocus"
+    },
+    {
+      "key": "ctrl+alt+h",
+      "command": "workbench.action.terminal.resizePaneLeft",
+      "when": "panelFocus"
+    },
+    {
+      "key": "ctrl+alt+l",
+      "command": "workbench.action.terminal.resizePaneRight",
+      "when": "panelFocus"
+    },
+
+//    Resize fileTree when focused inside it 
+    {
+      "key": "ctrl+alt+l",
+      "command": "workbench.action.increaseViewWidth",
+      "when": "sideBarFocus"
+    },
+    {
+      "key": "ctrl+alt+h",
+      "command": "workbench.action.decreaseViewWidth",
+      "when": "sideBarFocus"
+    },
+
+//    Change VS Code settings
     {
         "key": "ctrl+shift+k",
-        "command": "settings.cycle.activity"
+        "command": "settings.cycle.activity",
     },
     {
         "key": "ctrl+shift+t",
@@ -13,6 +51,8 @@
         "key": "ctrl+alt+v",
         "command": "toggleVim"
     },
+
+//    Move up/down when i have hover on for a function and it is huge
       {
     "key": "h",
     "command": "editor.action.scrollLeftHover",
